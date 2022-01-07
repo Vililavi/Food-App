@@ -1,0 +1,39 @@
+.container-loginpage{
+  align-content: center;
+  background-color: rgba(57, 206, 27, 0.226);
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 4em;
+  border: rgba(25, 194, 25, 0.863);
+  border-style: dotted;
+  border-radius: 3em;
+  
+}
+.button-login{
+    font-size: medium;
+}
+.button-register{
+    font-size: medium;
+    margin-left: 0.5em;
+    background-color: rgba(57, 206, 27, 0.226);
+    border-style: none;
+    color: black;
+    font-weight: bold;
+}
+.button-register:hover{
+    background-color: hotpink;
+}
+::placeholder{
+    color: gray;
+}
+
+.labels{
+    font-size: 1.5em;
+}
+.inputs{
+    font-size: medium;
+    padding: 0.25em;
+    margin-bottom: 0.5em;
+    width: 100%;
+}

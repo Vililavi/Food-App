@@ -1,0 +1,75 @@
+.otsikko{
+    background-color:white;
+    font-style:italic;
+    color:green;
+    outline-color: green;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px; 
+}
+.painike4{
+    background-color:white;
+    height: 50px;
+    width: 100px;
+    font-style:italic;
+    font-size: medium;
+    color:green;
+    outline-color: green;
+    border: green;
+    border:solid;
+    border:ridge;
+    float:right;
+}
+.linee{
+    outline-color: green;
+    float:center;
+    padding-top: 50px;
+}
+
+
+.linee2{
+    outline-color: green;
+    float:center;
+    padding: 10px;
+}
+.linee22{
+    outline-color: green;
+
+    float:center;
+    padding: 10px;
+}
+.linee23{
+    outline-color: green;
+    float:center;
+    padding: 10px;
+}
+.linee3{
+    outline-color: green;
+    float:left;
+    padding: 10px;
+    min-height: 130px;
+}
+.linee4{
+    outline-color: green;
+    float:left;
+    padding: 10px;
+    width: 500px;
+    min-height: 130px;
+    height: fit-content;
+}
+.linee5{
+    outline-color: green;
+    float:auto;
+    padding: 10px;
+    width: 720px;
+    min-height: 130px;
+}
+.linee6{
+    outline-color: green;
+    float:center;
+    padding: 10px;
+    min-height: 130px;
+}
+
+   

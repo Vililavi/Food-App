@@ -1,0 +1,109 @@
+.sidebar{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(20, 255, 255);
+   
+}
+.sidebar.active {
+    
+    background:rgb(30, 128, 0);
+    opacity: 1;
+    flex-direction: column;  
+    font-size: 1.25em;
+    display: flex;
+    width: 100%;
+    transition: background-color 3s, transform 3s, all 1s ease;
+}
+.search-logo{
+    font-size: 1.5em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    background: repeating-linear-gradient(90deg, rgb(21, 255, 0), rgb(200, 255, 0));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search{
+    padding-left: 0.5em;
+    font-size: 2em;
+    color: black;
+}
+.fa-times{
+    padding-left: 0.5em;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+.searchItems{
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+}
+.searchItems-select{
+    color: rgb(0, 0, 0);
+    
+    font-size: 1em;
+    width: 100%;
+}
+.searchHeaders{
+    /* Koska label on inline-elementti, niin displayn oltava block, jotta paddingit toimii */
+    display: block;
+    font-size: 1em;
+    padding-bottom: 0.25em;
+    color: black;
+}
+.searchHeaders-diets{
+    display: block;
+    font-size: 1em;
+    padding-top: 0.25em;
+    background-color: rgb(187, 245, 185);
+    
+}
+.searchButton{
+    align-self: center;
+    margin-right: 1em;
+    margin-left: 0.25em;
+    margin-top: 1.5em;
+    margin-bottom: 10em;
+    width: 95%;
+    height: 4em;
+    font-size: 1em;
+    border:0.1em solid #FFFFFF;
+    border-radius:0.12em;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #FFFFFF;
+}
+.searchButton:hover{
+   background-color: greenyellow;
+   border:0.1em solid greenyellow;
+}
+
+/* Kun ikkunan koko menee alle 960 pikselin */
+@media screen and (max-width:960px){
+    
+
+.search-logo{
+    font-size: 1.5em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    background: repeating-linear-gradient(90deg, rgb(21, 255, 0), rgb(200, 255, 0));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar.active {
+    background:rgb(207, 195, 180);
+    opacity: 1;
+    flex-direction: column;  
+    font-size: 1.25em;
+    display: flex;
+    width: 100%;
+    transition: background-color 3s, transform 3s, all 1s ease;
+}
+}
+

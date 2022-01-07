@@ -1,0 +1,26 @@
+.wordSearch{
+    display: flex; 
+    align-self: center;
+    margin-left: 10em;
+    color: white;
+    background: rgb(190, 248, 175);;
+}
+.theBar{
+    display: flex;
+    background: rgb(190, 248, 175);
+    height: 4.5em;
+    color:white;
+    border:2px white;
+}
+.filterSearch{
+    display: flex;
+    align-self:flex-start ;
+    color:green;
+}
+.searchResults{
+    display: grid;
+    background-color:white;
+    border:2px dashed green;
+    margin:10px;
+    color: black;
+}

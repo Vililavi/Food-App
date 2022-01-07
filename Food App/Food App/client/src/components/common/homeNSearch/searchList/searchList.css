@@ -1,0 +1,68 @@
+.kukka{
+    font-style:italic;
+    font-size: medium;
+    margin-left:18em;
+    position: absolute;
+    
+}
+.wrapper { 
+    border : 2px solid #000; 
+    overflow:hidden;
+    
+  }
+  .wrapper div {
+     min-height: 200px;
+     padding: 10px;
+  }
+  #one {
+    background-color: green;
+    float:left; 
+    margin-right:20px;
+    width:140px;
+    border-right:2px solid #000;
+    color: white;
+  }
+  #two { 
+    background-color: white;
+    overflow:hidden;
+    margin:10px;
+    border:2px dashed green;
+    min-height:170px;
+  }
+  
+  @media screen and (max-width: 400px) {
+     #one { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      border-bottom:2px solid #000;    
+    }
+  }
+
+  .painike2{
+    background-color:white;
+    height: 50px;
+    width: 100px;
+    font-style:italic;
+    font-size: medium;
+    color:green;
+    outline-color: green;
+    border: green;
+    border:solid;
+    border:ridge;
+    float: right;
+    }
+    .painike3{
+      background-color:white;
+      height: 25px;
+      width: 50px;
+      font-style:italic;
+      font-size: medium;
+      color:green;
+      outline-color: green;
+      border: green;
+      border:solid;
+      border:ridge;
+      float: left;
+      }

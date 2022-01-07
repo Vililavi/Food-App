@@ -1,0 +1,43 @@
+.container-alert2{
+    border-color: black;
+    border-style: solid;
+    position:absolute;
+    background: white;
+  
+    width: auto;
+    height: auto;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas: 
+    ". . . but"
+    ". msg . .";
+    opacity: .9;
+    backdrop-filter: blur(6px);
+}
+
+.message-alert2{
+font-size: 2.5em;
+grid-area: msg;
+}
+.button-alert2{
+    height: 3em;
+    width: 3em;
+    grid-area: but;
+    background-color: transparent;
+    border: none;
+}
+.fa-times-circle{
+    color: green;
+  font-size: 2em;
+    
+}
+.button-alert2:hover {
+  background-color: rgb(235, 127, 181);
+  border-radius: 1em;
+  }
+

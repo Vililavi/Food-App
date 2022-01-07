@@ -1,0 +1,31 @@
+.list-ur{
+    list-style-type: none;
+    display: flex;  
+    flex-direction: column;
+}
+.list-item-ur{
+    list-style-type: none;
+
+}
+.head{
+    background-color: green;
+}
+.recipesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width:max-content;
+    border:solid;
+    margin-left: 60em;
+}
+.delete-ur{
+    width: 6em;
+    border: none;
+    background-color: white;
+   justify-self: flex-end;
+}
+
+.delete-ur:hover {
+    background-color: rgb(221, 51, 136);
+    border-radius: 2em;
+  }

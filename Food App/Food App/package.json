@@ -1,0 +1,34 @@
+{
+  "name": "ruokaappi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd client && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://eta7800-21K-groupG@dev.azure.com/eta7800-21K-groupG/RuokaAppi/_git/RuokaAppi"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-form": "^4.0.1",
+    "react-form-input": "^0.3.0",
+    "react-native-elements": "^3.3.2",
+    "react-reflex": "^4.0.0",
+    "react-virtual-list": "^2.3.0",
+    "react-virtualized": "^9.22.3",
+    "reactstrap": "^8.9.0",
+    "rsuite": "^4.9.4",
+    "semantic-ui-react": "^2.0.3"
+  }
+}
